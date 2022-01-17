@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Scoreboard</title>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/scoreboard.js"></script>
+	<link href="../RPGUI/dist/rpgui.css" rel="stylesheet" type="text/css">
+	<script src="../RPGUI/dist/rpgui.js"></script>
+	<link rel="stylesheet" href="../stile/foglioDiStile.css">
+	<script>
+	//MUSICA SCOREBOARD
+	const music = new Audio('../musica/scoreboard.mp3');
+	music.play();
+	music.loop = true;
+	music.playbackRate = 1;
+	music.volume = 0.2;
+	</script>
+</head>
+<body>
+	<div class="rpgui-content">
+		<div id="corpo" class="inner rpgui-container framed">
+		<img src="../img/scoreboard/sfondoPagina.gif" style="height: 100%; width:100%; bottom: 0; left: 0px; position: absolute; z-index: -1;">
+		<table style=" width:100%; height:5%">
+					<tr>
+					   <td style=" text-align: center; height:5%; width: 5%">
+					   <button onclick="window.location.href='/'" class="rpgui-button" type="button" style="display:inline-block; position:relative">
+						<p>HOME</p> </button></td>
+						
+					   <td style="  text-align: center; vertical-align: middle;  width: 84%">
+					   
+					  <h1 style="font-size: 2em ">SCOREBOARD</h1>
+					   
+					   </td>
+					   <td style=" height:5%; width: 5%"></td>
+					</tr>
+				</table>	
+         <hr class="golden" style="margin-top:2%"></hr>
+         		<div class="" style="cursor: default; position:relative; width:20%; height:80%; display:inline-block; ">
+					<p><br></p>
+				</div>
+				 <div id="scoreboard" class="rpgui-container framed-golden-2" style="position:relative; width:60%; height:85%; margin-top: 1%; display:inline-block">
+					<p><br></p>
+				</div>    
+				<div class="" style="position:relative; width:20%; height:300px; display:inline-block">
+					<p><br></p>
+				</div>
+					<img src="../img/scoreboard/fiamma.gif" style="position:absolute; display:inline-block; width:12%; right:0px; bottom:0px">
+					<img src="../img/scoreboard/balla.gif" style="position:absolute; display:inline-block; width:10%; right:0px; bottom:0px">
+					
+					<img src="../img/scoreboard/fiamma.gif" style="position:absolute; display:inline-block; width:12%; left:0px; bottom:0px">
+					<img src="../img/scoreboard/balla_dx.gif" style="position:absolute; display:inline-block; width:10%; left:0px; bottom:0px">
+				</div>
+		</div>
+</body>
+</html>

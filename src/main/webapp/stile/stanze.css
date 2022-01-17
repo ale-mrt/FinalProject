@@ -1,0 +1,22 @@
+#testo{
+    padding: 0%;
+    margin: 0%;
+}
+
+#immagineSfondo{
+    display:inline-block;
+    height: 100%;
+    width:100%;
+    bottom: 0; 
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+}
+
+#tabTesto{
+    background-image: url('../img/stanze/stanza1/immagini/sotto.png');
+}
+
+#boxMessaggi{
+    text-align: center;
+}

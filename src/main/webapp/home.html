@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>The Secret of Marty's Garret</title>
+        <script src="js/jquery.min.js"></script>
+        <link href="RPGUI/dist/rpgui.css" rel="stylesheet" type="text/css">
+        <script src="RPGUI/dist/rpgui.js"></script>
+        <link rel="stylesheet" href="stile/foglioDiStile.css">
+		<script src="js/home.js"></script>
+    </head>
+    <body>
+        <!-- all rpgui elements must be inside the rpgui-content -->
+        <div class="rpgui-content">
+            <div id="corpo" class="inner rpgui-container framed">
+                <img src="img/home/sfondo.gif" style="height: 100%; width:100%; bottom: 0; left: 0px; position: absolute; z-index: -1;">
+                <table style="width:100%; height:100%; border-collapse: collapse;">
+                    <!-- PRIMA RIGA -->
+                    <tr style=" height: 10%; width: 100%;">
+                        <!-- PRIMA COLONNA -->
+                        <td id="tab1" style="width: 25%;">
+
+                        </td>
+                        <!-- SECONDA COLONNA -->
+                        <td id="tab2" style="width: 50%;">
+                            <div style="text-align: left;">
+                                <br><h1 style="font-size: 2em;">The Secret of<br><br> Marty's Garret</h1><br>
+                            </div>
+                            
+                        </td>
+                        <!-- TERZA COLONNA -->
+                        <td id="tab3" style="width: 25%; text-align: center; vertical-align: middle">
+                            <button id="bottoneMute" class="rpgui-button" type="button"><img id="imgVolume" style="width: 60%; height: 60%;" src="img/icone/volume_on.png" alt="Volume ON"></button><br>
+                        </td>
+                    </tr>
+                    <!-- SECONDA RIGA -->
+                    <tr style="height: 50%;">
+                        <!-- PRIMA COLONNA -->
+                        <td id="tab4">
+                            <img src="/img/home/2.png" style="display: block; margin-left: auto; margin-right: auto;">
+                        </td>
+                        <!-- SECONDA COLONNA -->
+                        <td id="tab5">
+                            
+                            <div style="text-align: center; vertical-align: bottom;">
+                                <button id="bottoneNuovaPartita" class="rpgui-button" type="button"><p>NUOVA PARTITA</p></button><br>
+                                <div id="sceltaNuovaPartita" style="display: none">
+                                    <!-- Qui dentro il contenuto del nuova partita-->
+                                </div>
+                                <button id="bottoneCaricaPartita" class="rpgui-button" type="button"><p>CARICA PARTITA</p></button><br>
+                                <div id="erroreCaricaPartita" style="display: none">
+                                <!-- Qui dentro il contenuto del carica partita-->
+                                </div>
+                                <button id="bottoneScoreboard" class="rpgui-button" type="button"><p>SCOREBOARD</p></button><br>
+                                <button id="bottoneCrediti" class="rpgui-button" type="button"><p>CREDITI</p></button><br>
+                                <div id="linkAutenticazione">
+                                    <!-- Qui dentro il contenuto del login/out -->
+                                </div>
+                            </div>
+                        </td>
+                        <!-- TERZA COLONNA -->
+                        <td id="tab6">
+                            <img src="/img/home/6.png" style="display: block; margin-left: auto; margin-right: auto;">
+                        </td>
+                    </tr> 
+                    <!-- TERZA RIGA -->
+                    <tr style=" height: 30%; width: 100%;">
+                        <!-- PRIMA COLONNA -->
+                        <td id="tab7" style="width: 25%;">
+                            <img src="/img/home/3.png" style="display: block; margin-left: auto; margin-right: auto;">
+                        </td>
+                        <!-- SECONDA COLONNA -->
+                        <td id="tab8" style="width: 50%; text-align: center;">
+                            <img src="/img/home/4.png" style="display: block; margin-left: auto; margin-right: auto;">
+                        </td>
+                        <!-- TERZA COLONNA -->
+                        <td id="tab9" style="width: 25%;">
+                            <img src="/img/home/5.png" style="display: block; margin-left: auto; margin-right: auto;">
+                        </td>
+                    </tr> 
+                </table>
+            </div>
+        </div>
+    </body> 
+</html>
